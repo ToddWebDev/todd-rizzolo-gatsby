@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Container from "../components/container"
 import Header from "../components/header"
 import styles from "./about.module.css"
@@ -17,7 +16,6 @@ const User = props => (
 
 export default () => (
   <Container>
-    <Link to="/">Home</Link>
     <Header headerText="About Gatsby" />
     <Header headerText="It's pretty cool" />
     <p>Such wow. Very React.</p>
