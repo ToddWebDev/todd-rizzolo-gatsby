@@ -1,6 +1,6 @@
 import React from "react"
+import { Seo } from "../components/seo"
 import Container from "../components/container"
-import Header from "../components/header"
 import styles from "./about.module.css"
 console.log(styles)
 
@@ -16,8 +16,8 @@ const User = props => (
 
 export default () => (
   <Container>
-    <Header headerText="About Gatsby" />
-    <Header headerText="It's pretty cool" />
+    <Seo title="About" description="More Information" />
+    <h1>About Gatsby</h1>
     <p>Such wow. Very React.</p>
     <User
       username="Jane Doe"

@@ -6,6 +6,7 @@
 
 module.exports = {
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -13,4 +14,10 @@ module.exports = {
       },
     },
   ],
+  siteMetadata: {
+    siteUrl: "https://www.toddrizzolo.com",
+    title: "Todd Rizzolo",
+    description: "Todd Rizzolo Front-End Developer Portfolio Website",
+    image: "",
+  },
 }
