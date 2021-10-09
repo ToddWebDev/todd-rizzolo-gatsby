@@ -1,6 +1,6 @@
 import React from "react"
 import { Seo } from "../components/seo"
-import Container from "../components/container"
+import Layout from "../components/layout"
 import styles from "./about.module.css"
 console.log(styles)
 
@@ -15,19 +15,18 @@ const User = props => (
 )
 
 export default () => (
-  <Container>
-    <Seo title="About" description="More Information" />
+  <Layout title="About" description="More Information">
     <h1>About Gatsby</h1>
     <p>Such wow. Very React.</p>
     <User
       username="Jane Doe"
-      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+      avatar="https://source.unsplash.com/random/100x100"
       excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
     <User
       username="Bob Smith"
-      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+      avatar="https://source.unsplash.com/random/100x100"
       excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
-  </Container>
+  </Layout>
 )

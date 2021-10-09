@@ -18,6 +18,6 @@ module.exports = {
     siteUrl: "https://www.toddrizzolo.com",
     title: "Todd Rizzolo",
     description: "Todd Rizzolo Front-End Developer Portfolio Website",
-    image: "",
+    image: "https://source.unsplash.com/random/50X50",
   },
 }

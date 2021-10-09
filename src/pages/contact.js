@@ -1,9 +1,9 @@
 import React from "react"
-import Container from "../components/container"
+import Layout from "../components/layout"
 
 export default () => (
-  <Container>
+  <Layout>
     <h1>Contact</h1>
     <p>Send us a message!</p>
-  </Container>
+  </Layout>
 )
