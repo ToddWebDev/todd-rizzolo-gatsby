@@ -1,4 +1,38 @@
-html {
-  background-color: skyblue;
+:root {
+  --black: #333;
+  --gray: #555;
+  --white: #fff;
+  --text-color-dark: var(--black);
+  --text-color-medium: var(--gray);
+  --base-font-size: 18px;
+
+  --screen-sm: 600px;
+  --screen-md: 768px;
+  --screen-lg: 992px;
+  --screen-xl: 1200px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: var(--text-color-medium);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: var(--base-font-size);
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--text-color-dark);
+}

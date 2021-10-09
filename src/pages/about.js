@@ -1,8 +1,6 @@
 import React from "react"
-import { Seo } from "../components/seo"
 import Layout from "../components/layout"
-import styles from "./about.module.css"
-console.log(styles)
+import styles from "../styles/about.module.css"
 
 const User = props => (
   <div className={styles.user}>
@@ -16,7 +14,7 @@ const User = props => (
 
 export default () => (
   <Layout title="About" description="More Information">
-    <h1>About Gatsby</h1>
+    <h1>About</h1>
     <p>Such wow. Very React.</p>
     <User
       username="Jane Doe"
