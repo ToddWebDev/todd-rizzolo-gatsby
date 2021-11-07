@@ -1,9 +1,22 @@
 :root {
-  --black: #333;
-  --gray: #555;
+  --primary-one: #c53058;
+  --primary-two: #5b122c;
+  --base-one: #0d2d3e;
+  --base-two: #164c69;
+  --base-three: #3f7893;
+  --base-four: #c4d3dc;
+  --base-five: #dce5eb;
+  --base-six: #f5f8fa;
+  --black: var(--base-one);
   --white: #fff;
-  --text-color-dark: var(--black);
-  --text-color-medium: var(--gray);
+
+  --text-color-dark: var(--base-one);
+  --text-color-medium: var(--base-two);
+  --text-color-light: var(--base-three);
+  --text-color-deemphasized: var(--base-four);
+
+  --border-width: 4px;
+
   --base-font-size: 18px;
 
   --screen-sm: 600px;
@@ -23,6 +36,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: var(--base-font-size);
   line-height: 1.4;
+  background: var(--base-six);
 }
 
 body {
