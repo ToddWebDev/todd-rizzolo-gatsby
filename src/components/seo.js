@@ -27,7 +27,25 @@ export function Seo(props) {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="theme-color" content="#5b122c" />
       <link rel="canonical" href={url} />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/favicon-16x16.png"
+      />
       {image && <meta name="image" content={image} />}
 
       <meta property="og:url" content={url} />
@@ -40,6 +58,11 @@ export function Seo(props) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       {image && <meta name="twitter:image" content={image} />}
+
+      <script
+        src="https://kit.fontawesome.com/02130b3d51.js"
+        crossorigin="anonymous"
+      ></script>
     </Helmet>
   )
 }

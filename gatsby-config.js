@@ -7,11 +7,13 @@
 module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
   ],
   siteMetadata: {
     siteUrl: "https://www.toddrizzolo.com",
-    title: "Todd Rizzolo",
+    title: "Todd Rizzolo - Half Stack Dev",
     description: "Todd Rizzolo Front-End Developer Portfolio Website",
-    image: "",
+    image: "images/profile-image.jpg",
   },
 }

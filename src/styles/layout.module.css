@@ -11,7 +11,7 @@
 }
 
 h1,
-f h2,
+h2,
 h3,
 h4,
 h5 {
@@ -30,6 +30,13 @@ h5 {
   color: var(--primary-one);
   border-radius: 50%;
   border: var(--border-width) solid var(--primary-one);
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
 }
 
 .content {
@@ -53,6 +60,10 @@ section + section {
     text-align: right;
     height: 100vh;
     width: 35%;
+  }
+
+  .footer ul {
+    justify-content: flex-end;
   }
 
   .content {

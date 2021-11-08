@@ -1,29 +1,45 @@
 import React from "react"
-import { header, content } from "../styles/layout.module.css"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+import { header } from "../styles/layout.module.css"
 
 import Footer from "./footer"
-// import avatar from "../assets/images/avatar.jpg"
 
-const Header = () => (
-  <header className={header}>
-    <div>
-      <a href="#">
-        <img
-          src="https://source.unsplash.com/random/400x200"
-          alt=""
-          width={150}
-          height={150}
-        />
-      </a>
-      <h1>
-        <strong>Todd Rizzolo</strong> Half Stack Developer. Front-End Coder.
-        <br />
-        UX. User Interface Builder.
-        <br />
-      </h1>
-    </div>
-    <Footer />
-  </header>
-)
+const Header = () => {
+  const baseURL = "https://api.github.com"
+
+  const fetchGithubData = async () =>
+    await fetch(`${baseURL}/users/toddwebdev`)
+      .then(res => res.json())
+      .then(res => console.log(res))
+      .catch(err => console.error(err))
+
+  React.useEffect(() => {
+    fetchGithubData()
+  }, [])
+
+  return (
+    <header className={header}>
+      <div>
+        <Link to="#">
+          <StaticImage
+            src="../images/profile-image.jpg"
+            alt="Profile Image"
+            placeholder="blurred"
+            width={150}
+            height={150}
+          />
+        </Link>
+        <h1>
+          <strong>Todd Rizzolo</strong> Half Stack Developer. Front-End Coder.
+          <br />
+          UX. User Interface Builder.
+          <br />
+        </h1>
+      </div>
+      <Footer />
+    </header>
+  )
+}
 
 export default Header

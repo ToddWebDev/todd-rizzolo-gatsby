@@ -9,14 +9,13 @@ export default () => {
         <p>Toolbox</p>
         <ul>
           <li>Javascript</li>
+          <li>Webpack</li>
           <li>React</li>
+          <li>Gatsby</li>
           <li>Angular</li>
-          <li>Css</li>
-          <li>Sass</li>
-          <li>Less</li>
-          <li>Frameworks</li>
-          <li>User Interface Design</li>
+          <li>GraphQL</li>
           <li>Accessibility</li>
+          <li>User Interface Design</li>
           <li>UX</li>
           <li>Wireframes</li>
           <li>Prototyping</li>
