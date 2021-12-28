@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { Seo } from "../components/seo"
 import Header from "./header"
 import { header, content } from "../styles/layout.module.css"

@@ -42,12 +42,24 @@ export default () => {
           <div className="card">
             <h3>Ministry Grid</h3>
             <p>A training web app tailored for church leaders.</p>
-            <a href="#">View More</a>
+            <a
+              href="https://ministrygrid.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View More
+            </a>
           </div>
           <div className="card">
-            <h3>Ministry Grid</h3>
-            <p>Digital curriculum tailored for church leaders.</p>
-            <a href="#">View More</a>
+            <h3>Digital Curriculum</h3>
+            <p>A digital curriculum web app tailored for church leaders.</p>
+            <a
+              href="https://ministrygrid.com/curriculum"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View More
+            </a>
           </div>
         </div>
       </section>
@@ -58,7 +70,7 @@ export default () => {
       </section>
       <section>
         <a href="#top">
-          <i class="far fa-hand-point-up"></i> Back to top
+          <i aria-hidden className="far fa-hand-point-up"></i> Back to top
         </a>
       </section>
     </Layout>

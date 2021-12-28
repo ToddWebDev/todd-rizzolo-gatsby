@@ -9,36 +9,40 @@ const Footer = () => (
           <a
             href="https://www.github.com/toddwebdev"
             target="_blank"
+            rel="noreferrer"
             className="icon"
           >
-            <span className="fab fa-github"></span>
+            <span aria-hidden className="fab fa-github"></span>
           </a>
         </li>
         <li>
           <a
             href="https://www.instagram.com/toddwebdev"
             target="_blank"
+            rel="noreferrer"
             className="icon"
           >
-            <span className="fab fa-instagram"></span>
+            <span aria-hidden className="fab fa-instagram"></span>
           </a>
         </li>
         <li>
           <a
             href="https://www.twitter.com/toddwebdev"
             target="_blank"
+            rel="noreferrer"
             className="icon"
           >
-            <span className="fab fa-twitter"></span>
+            <span aria-hidden className="fab fa-twitter"></span>
           </a>
         </li>
         <li>
           <a
             href="https://www.codepen.io/toddwebdev"
             target="_blank"
+            rel="noreferrer"
             className="icon"
           >
-            <span className="fab fa-codepen"></span>
+            <span aria-hidden className="fab fa-codepen"></span>
           </a>
         </li>
       </ul>

@@ -49,6 +49,7 @@ body {
       rgba(245, 248, 250, 1) 100%
     ),
     url(../images/pattern-randomized.svg);
+    scroll-behavior: smooth;
 }
 
 body {
