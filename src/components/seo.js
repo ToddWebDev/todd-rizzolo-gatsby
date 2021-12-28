@@ -61,7 +61,7 @@ export function Seo(props) {
 
       <script
         src="https://kit.fontawesome.com/02130b3d51.js"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
       ></script>
     </Helmet>
   )

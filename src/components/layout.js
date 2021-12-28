@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import { Seo } from "../components/seo"
 import Header from "./header"
-import { content } from "../styles/layout.module.css"
+import { header, content } from "../styles/layout.module.css"
 
 export default function Layout({
   children,
@@ -28,7 +28,7 @@ export default function Layout({
   return (
     <>
       <Seo title={title} description={description} image={image} path={path} />
-      <Header />
+      <Header className={header} />
       <main className={content}>{children}</main>
     </>
   )

@@ -30,12 +30,13 @@ const Header = () => {
             height={150}
           />
         </Link>
-        <h1>
-          <strong>Todd Rizzolo</strong> Half Stack Developer. Front-End Coder.
+        <h1>Todd Rizzolo</h1>
+        <h2>
+          {" "}
+          Half Stack Developer. Front-End Coder.
           <br />
           UX. User Interface Builder.
-          <br />
-        </h1>
+        </h2>
       </div>
       <Footer />
     </header>
