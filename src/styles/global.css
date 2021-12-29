@@ -49,7 +49,7 @@ body {
       rgba(245, 248, 250, 1) 100%
     ),
     url(../images/pattern-randomized.svg);
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -81,4 +81,19 @@ h5 {
   border: var(--border-width) solid var(--base-five);
   border-radius: var(--border-radius);
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.card ul {
+  gap: 0.5rem;
+}
+
+.card li {
+  font-size: 0.8rem;
+  padding: 0.2em 0.5em !important;
+  margin: 1em 0 0 0 !important;
+}
+
+.card li:last-child {
+  flex-grow: inherit !important;
+  opacity: 1 !important;
 }

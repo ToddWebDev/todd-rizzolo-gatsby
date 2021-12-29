@@ -60,6 +60,11 @@ export default () => {
             >
               View More
             </a>
+            <ul>
+              <li>React</li>
+              <li>AngularJS</li>
+              <li>UX/UI</li>
+            </ul>
           </div>
           <div className="card">
             <h3>Digital Curriculum</h3>
@@ -71,6 +76,10 @@ export default () => {
             >
               View More
             </a>
+            <ul>
+              <li>React</li>
+              <li>UX/UI</li>
+            </ul>
           </div>
         </div>
       </section>
