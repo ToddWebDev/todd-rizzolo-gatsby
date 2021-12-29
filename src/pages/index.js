@@ -9,9 +9,9 @@ export default () => {
         <p>Toolbox</p>
         <ul className="flex-list">
           <li>Javascript</li>
-          <li>Webpack</li>
           <li>React</li>
           <li>AngularJS</li>
+          <li>Webpack</li>
           <li className="list-fill"></li>
         </ul>
         <ul>
