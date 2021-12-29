@@ -33,10 +33,20 @@ export default () => {
         <p>Portfolio</p>
         <p>
           While much of the code I write for my employer is private, I do share
-          some of the results on <strong>social media</strong>, and examples of
-          my code on <strong>Code Sandbox</strong> and <strong>CodePen</strong>.
-          Additionally, you may see some of my open source side projects on{" "}
-          <strong>GitGub</strong>.
+          examples of my code on{" "}
+          <a href="https://codesandbox.io/u/ToddWebDev" target="_blank">
+            Code Sandbox
+          </a>{" "}
+          and{" "}
+          <a href="https://www.codepen.io/toddwebdev" target="_blank">
+            CodePen
+          </a>
+          . Additionally, you may see some of my open source side projects on{" "}
+          <a href="https://www.github.com/toddwebdev" target="_blank">
+            GitGub
+          </a>
+          .
+        
         </p>
         <div className="cards">
           <div className="card">
