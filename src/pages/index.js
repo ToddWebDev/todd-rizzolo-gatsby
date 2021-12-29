@@ -1,7 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
+import useVH from "react-viewport-height"
 
 export default () => {
+  useVH()
   return (
     <Layout id="top">
       <section>
@@ -46,7 +48,6 @@ export default () => {
             GitGub
           </a>
           .
-        
         </p>
         <div className="cards">
           <div className="card">

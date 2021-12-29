@@ -113,7 +113,7 @@ section + section {
   .header {
     position: fixed;
     text-align: right;
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     width: 35%;
     background-position-x: center, -31vw;
   }
