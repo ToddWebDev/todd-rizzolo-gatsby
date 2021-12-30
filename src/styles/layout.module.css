@@ -1,13 +1,13 @@
 /* Mobile First Layout */
 .header {
-  color: var(--white);
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 3rem;
   position: relative;
   text-align: center;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: var(--text-shadow-dark);
 
   background-color: var(--black);
   background-attachment: scroll;
@@ -23,17 +23,17 @@
 }
 
 .header h1 {
-  color: var(--white);
+  color: #fff;
   font-size: 1.5em;
 }
 
 .header h2 {
-  color: var(--base-four);
+  color: #c4d3dc;
   font-size: 1.3em;
 }
 
 .footer a {
-  color: var(--base-four);
+  color: #c4d3dc;
   display: inline-block;
   padding: 0.5rem;
   text-decoration: none;
@@ -42,7 +42,7 @@
 
 .header a:hover,
 .header a:focus {
-  color: var(--base-six);
+  color: #f5f8fa;
 }
 
 .header a img {
@@ -53,7 +53,7 @@
 }
 
 .footer {
-  color: var(--base-four);
+  color: #c4d3dc;
 }
 
 .footer ul {
@@ -80,7 +80,7 @@
 
 .content li {
   padding: 0.5em 1em;
-  border: 1px solid var(--base-four);
+  border: 1px solid #c4d3dc;
   background: var(--base-five);
   margin: 0 0.5em 0.5em 0;
   border-radius: var(--border-radius);
