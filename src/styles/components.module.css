@@ -1,7 +1,7 @@
 .cards {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1em;
 }
 
 .card {
@@ -28,6 +28,15 @@
   display: inline-block;
   flex-grow: inherit;
   opacity: 1;
+}
+
+.card div {
+  display: flex;
+  gap: 1em;
+}
+
+.card button {
+  flex: 1;
 }
 
 /* Desktop Layout */

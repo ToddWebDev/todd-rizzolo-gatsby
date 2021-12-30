@@ -37,6 +37,9 @@ const Header = () => {
           <br />
           UX. User Interface Builder.
         </h2>
+        <h4>
+          <i aria-hidden className="fas fa-map-pin"></i> Salt Lake City, Utah
+        </h4>
       </div>
       <Footer />
     </header>

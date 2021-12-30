@@ -27,9 +27,14 @@
   font-size: 1.5em;
 }
 
-.header h2 {
+.header h2,
+.header h4 {
   color: #c4d3dc;
   font-size: 1.3em;
+}
+
+.header i {
+  color: var(--primary-one);
 }
 
 .footer a {
@@ -49,7 +54,6 @@
   color: var(--primary-one);
   border-radius: 50%;
   border: 4px solid var(--primary-one);
-  animation: pulse 2s infinite;
 }
 
 .footer {
@@ -65,7 +69,7 @@
 }
 
 .content {
-  padding: 0 1rem;
+  padding: 0 1em;
 }
 
 .content ul {
@@ -80,7 +84,7 @@
 
 .content li {
   padding: 0.5em 1em;
-  border: 1px solid #c4d3dc;
+  border: 1px solid var(--base-four);
   background: var(--base-five);
   margin: 0 0.5em 0.5em 0;
   border-radius: var(--border-radius);
@@ -98,6 +102,12 @@ section + section {
   margin-top: -3rem;
 }
 
+footer {
+  background: var(--base-five);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  padding: 2em 1em;
+}
+
 /* Desktop Layout */
 @media only screen and (min-width: 767px) {
   .header {
@@ -112,7 +122,8 @@ section + section {
     justify-content: flex-end;
   }
 
-  .content {
+  .content,
+  footer {
     padding: 3rem;
     margin-left: 35%;
     width: 65%;
@@ -124,5 +135,13 @@ section + section {
     flex: 1;
     opacity: 0.3;
     align-self: stretch;
+  }
+
+  footer {
+    max-width: none;
+  }
+
+  footer > * {
+    max-width: 75ch;
   }
 }

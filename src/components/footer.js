@@ -45,6 +45,21 @@ const Footer = () => (
             <span aria-hidden className="fab fa-codepen"></span>
           </a>
         </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCzIrcCwm52dXyIo2jHUp9zQ"
+            target="_blank"
+            rel="noreferrer"
+            className="icon"
+          >
+            <span aria-hidden className="fab fa-youtube"></span>
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank" rel="noreferrer" className="icon">
+            <span aria-hidden className="fab fa-linkedin"></span>
+          </a>
+        </li>
       </ul>
       <p>&copy; {new Date().getFullYear()}</p>
     </div>

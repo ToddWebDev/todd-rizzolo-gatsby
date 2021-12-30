@@ -23,6 +23,18 @@ export default () => {
               )}
             </div>
             <h2>Front-End Web Developer</h2>
+            <blockquote>
+              &nbsp;I&lsquo;m a front-end software developer with a strong focus
+              on javascript, user interface design and implementation. I help
+              conceptualize, facilitate, design, prototype and build digital
+              products. My experience includes writing functional, well
+              thought-out and production-ready code, that is unit tested and
+              meets the design requirements of detailed prototypes and mockups.
+              I&lsquo;m a self starter, a team player and have many years of
+              experience working in a scrum and agile oriented system. I have
+              strong communication skills, enjoy solving problems and most of
+              all, I enjoy building digital products.
+            </blockquote>
             <p>Toolbox</p>
             <ul className="flex-list">
               <li>Javascript</li>

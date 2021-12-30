@@ -27,7 +27,7 @@ export function Seo(props) {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="theme-color" content="#5b122c" />
+      <meta name="theme-color" content="#164c69" />
       <link rel="canonical" href={url} />
       <link
         rel="apple-touch-icon"

@@ -117,6 +117,44 @@ button:focus {
   box-shadow: 0 0 0 3px rgba(197, 48, 88, 0.75);
 }
 
-button.full-width {
-  width: 100%;
+button.secondary {
+  color: var(--text-color-strong);
+  background: none;
+  border: 1px solid var(--base-three);
+  text-shadow: none;
+}
+
+button.secondary:hover {
+  background: var(--base-five);
+}
+
+button.secondary:focus {
+  box-shadow: 0 0 0 3px rgba(220, 229, 235, 0.75);
+}
+
+blockquote {
+  position: relative;
+  font-size: 1.3rem;
+  padding: 0.5em 2em;
+  margin: 0;
+}
+
+blockquote:before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  font-weight: 900;
+  content: "\f10d";
+  color: var(--base-five);
+  line-height: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }

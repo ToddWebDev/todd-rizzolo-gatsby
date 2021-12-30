@@ -15,7 +15,7 @@ const Portfolio = () => (
       <a href="https://www.codepen.io/toddwebdev" target="_blank">
         CodePen
       </a>
-      . Additionally, you may see some of my open source side projects on{" "}
+      . &nbsp;Additionally, you may see some of my open source side projects on{" "}
       <a href="https://www.github.com/toddwebdev" target="_blank">
         GitGub
       </a>
@@ -30,12 +30,24 @@ const Portfolio = () => (
           <li>AngularJS</li>
           <li>UX/UI</li>
         </ul>
-        <button
-          className="full-width"
-          onClick={() => window.open("https://ministrygrid.com/", "_blank")}
-        >
-          Visit Site
-        </button>
+        <div>
+          <button
+            onClick={() => window.open("https://ministrygrid.com/", "_blank")}
+          >
+            Visit Marketing
+          </button>
+          <button
+            className="secondary"
+            onClick={() =>
+              window.open(
+                "https://ministrygrid.lifeway.com/#/catalog",
+                "_blank"
+              )
+            }
+          >
+            Visit App
+          </button>
+        </div>
       </div>
       <div className={card}>
         <h3>Digital Curriculum</h3>
@@ -44,14 +56,26 @@ const Portfolio = () => (
           <li>React</li>
           <li>UX/UI</li>
         </ul>
-        <button
-          className="full-width"
-          onClick={() =>
-            window.open("https://ministrygrid.com/curriculum", "_blank")
-          }
-        >
-          Visit Site
-        </button>
+        <div>
+          <button
+            onClick={() =>
+              window.open("https://ministrygrid.com/curriculum", "_blank")
+            }
+          >
+            Visit Marketing
+          </button>
+          <button
+            className="secondary"
+            onClick={() =>
+              window.open(
+                "https://ministrygrid.lifeway.com/#/bible-studies",
+                "_blank"
+              )
+            }
+          >
+            Visit App
+          </button>
+        </div>
       </div>
     </div>
   </section>
