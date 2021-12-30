@@ -90,16 +90,6 @@
   display: none;
 }
 
-.content a {
-  color: var(--base-three);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-.content a:hover {
-  color: var(--base-two);
-}
-
 section {
   padding: 3rem 0;
 }
