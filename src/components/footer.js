@@ -56,7 +56,12 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a href="" target="_blank" rel="noreferrer" className="icon">
+          <a
+            href="https://www.linkedin.com/toddrizzolo"
+            target="_blank"
+            rel="noreferrer"
+            className="icon"
+          >
             <span aria-hidden className="fab fa-linkedin"></span>
           </a>
         </li>
