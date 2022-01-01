@@ -32,10 +32,11 @@ export default function Layout({
       <main className={content}>{children}</main>
       <footer>
         <p>
-          This site is built with the Jamstack. A Jamstack frontend consists of
-          JavaScript, HTML, and CSS. Gatsby generates these files during the
-          build process and Netlify provides continuous deployments triggered by
-          Git. This site is blazing fast and secure. Yeah, it's pretty awesome.
+          This site is built with the Jamstack. The Jam in Jamstack stands for
+          JavaScript, APIs, and HTML markup. Gatsby generates these files during
+          the build process and Netlify provides continuous deployments
+          triggered by Git. This site is blazing fast and secure. Yeah, it's
+          pretty awesome.
         </p>
         <a href="#">View Site Performance</a>
       </footer>
