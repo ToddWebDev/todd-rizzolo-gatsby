@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import PortfolioSection from "../components/portfolioSection"
+import ExamplesSection from "../components/examplesSection"
 import useVH from "react-viewport-height"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
@@ -58,13 +59,7 @@ export default () => {
             </ul>
           </section>
           <PortfolioSection />
-          <section>
-            <h2>My Social Media</h2>
-            <p>Connect</p>
-            <p className="text-color-deemphasized">
-              looking for connections...
-            </p>
-          </section>
+          <ExamplesSection />
           <section style={{ display: "flex", justifyContent: "space-between" }}>
             <a href="#top">
               <i aria-hidden className="far fa-hand-point-up"></i> Back to top

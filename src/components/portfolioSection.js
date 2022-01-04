@@ -3,35 +3,10 @@ import { cards, card } from "../styles/components.module.css"
 
 const Portfolio = () => (
   <section>
-    <h2>My Projects</h2>
-    <p>Portfolio</p>
+    <h2>My Portfolio</h2>
     <p>
-      While much of the code I write for my employer is private, I do share
-      examples of my code on{" "}
-      <a
-        href="https://codesandbox.io/u/ToddWebDev"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Code Sandbox
-      </a>{" "}
-      and{" "}
-      <a
-        href="https://www.codepen.io/toddwebdev"
-        target="_blank"
-        rel="noreferrer"
-      >
-        CodePen
-      </a>
-      . &nbsp;Additionally, you may see some of my open source side projects on{" "}
-      <a
-        href="https://www.github.com/toddwebdev"
-        target="_blank"
-        rel="noreferrer"
-      >
-        GitGub
-      </a>
-      .
+      I am the lead user interface designer and front-end developer for these
+      web apps.
     </p>
     <div className={cards}>
       <div className={card}>

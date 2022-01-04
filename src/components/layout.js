@@ -33,7 +33,7 @@ export default function Layout({
       <footer>
         <p>
           This site is built with the Jamstack. The Jam in Jamstack stands for
-          JavaScript, APIs, and HTML markup. Gatsby generates these files during
+          JavaScript, APIs, and HTML markup. Gatsby JS generates these files during
           the build process and Netlify provides continuous deployments
           triggered by Git. This site is blazing fast and secure. Yeah, it's
           pretty awesome.
