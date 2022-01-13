@@ -5,9 +5,11 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 1;
   background: var(--white);
-  display: inline-block;
   padding: 1rem;
   border: var(--border-width) solid var(--base-five);
   border-radius: var(--border-radius);
