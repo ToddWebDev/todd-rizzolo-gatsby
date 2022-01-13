@@ -22,13 +22,13 @@ const Header = () => {
     <header className={header}>
       <div>
         <Link to="#">
-          <StaticImage
-            src="../images/profile-image.jpg"
-            alt="Profile Image"
-            placeholder="blurred"
-            width={150}
-            height={150}
-          />
+            <StaticImage
+              src="../images/profile-image.jpg"
+              alt="Profile Image"
+              placeholder="blurred"
+              width={250}
+              height={250}
+            />
         </Link>
         <h1>Todd Rizzolo</h1>
         <h2>
