@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     "gatsby-plugin-dark-mode",
+    `gatsby-plugin-smoothscroll`,
   ],
   siteMetadata: {
     siteUrl: "https://www.toddrizzolo.com",
