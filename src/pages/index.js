@@ -40,8 +40,8 @@ export default () => {
                 meets the design requirements of detailed prototypes and
                 mockups. I&lsquo;m a self starter, a team player and have many
                 years of experience working in a scrum and agile oriented
-                system. I have strong communication skills, enjoy solving
-                problems and most of all, I enjoy building digital products.
+                system. I have strong communication skills, enjoy solving complex
+                problems and most of all, I enjoy building great digital products.
               </blockquote>
               <p>Toolbox</p>
               <ul className="flex-list">
