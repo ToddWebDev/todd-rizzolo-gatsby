@@ -52,6 +52,8 @@
 
 .header a div {
   margin-top: 1em;
+  transform: rotate(-3deg);
+  box-shadow: -3px 3px 12px 2px rgb(0 0 0 / 40%);
 }
 
 .header a div img {
