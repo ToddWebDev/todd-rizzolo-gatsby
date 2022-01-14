@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import PortfolioSection from "../components/portfolioSection"
 import ExamplesSection from "../components/examplesSection"
+import ContactSection from "../components/contactSection"
 import useVH from "react-viewport-height"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import scrollTo from "gatsby-plugin-smoothscroll"
@@ -66,6 +67,7 @@ export default () => {
             </section>
             <PortfolioSection />
             <ExamplesSection />
+            <ContactSection />
             <section>
               <a href="#" onClick={e => scrollToTop(e)}>
                 <i aria-hidden className="far fa-hand-point-up"></i> Back to top
