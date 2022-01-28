@@ -43,7 +43,7 @@ export default () => {
                 system. I have strong communication skills, enjoy solving complex
                 problems and most of all, I enjoy building great digital products.
               </blockquote>
-              <p>Toolbox</p>
+              <h3>Toolbox</h3>
               <ul className="flex-list">
                 <li>Javascript</li>
                 <li>React</li>

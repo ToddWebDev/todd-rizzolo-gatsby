@@ -5,11 +5,12 @@ const Portfolio = () => (
   <section>
     <h2>My Portfolio</h2>
     <p>
-      I am the lead user interface designer and front-end developer for these
-      web apps.
+      I am a front-end web developer and the lead user interface designer for
+      these web apps.
     </p>
     <div className={cards}>
       <div className={card}>
+        <i aria-hidden className="icomoon-ministryGrid"></i>
         <h3>Ministry Grid</h3>
         <p>A training web app tailored for church leaders.</p>
         <ul>
@@ -40,6 +41,7 @@ const Portfolio = () => (
         </div>
       </div>
       <div className={card}>
+        <i aria-hidden class="fas fa-bible"></i>
         <h3>Digital Curriculum</h3>
         <p>A digital curriculum web app tailored for church leaders.</p>
         <ul>

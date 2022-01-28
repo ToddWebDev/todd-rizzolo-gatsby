@@ -1,10 +1,17 @@
-.cards {
+.cards,
+.smallCards {
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
 
+.smallCards > .card > i {
+  font-size: 2rem;
+}
+
 .card {
+  z-index: 0;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,6 +21,15 @@
   border: var(--border-width) solid var(--base-five);
   border-radius: var(--border-radius);
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.card > i {
+  z-index: -10;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: var(--base-four);
+  font-size: 3em;
 }
 
 .card ul {
@@ -45,7 +61,8 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .cards {
+  .cards,
+  .smallCards {
     flex-direction: row;
   }
 }

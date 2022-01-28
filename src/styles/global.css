@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Nunito+Sans:wght@700&family=Vujahday+Script&display=swap");
+@font-face {
+  font-family: "BethlehemIcons";
+  src: url("~/fonts/icomoon.eot");
+  src: url("~/fonts/icomoon.eot?#iefix") format("embedded-opentype"),
+    url("~/fonts/icomoon.woff") format("woff"),
+    url("~/fonts/icomoon.ttf") format("truetype"),
+    url("~/fonts/icomoon.svg#icomoon") format("svg");
+}
 
 * {
   box-sizing: border-box;
@@ -164,4 +172,27 @@ blockquote:before {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
+}
+
+[class^="icomoon-"] {
+  font-family: "BethlehemIcons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+
+  display: inline-block;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-myWSB:before {
+  content: "\e900";
+}
+.icomoon-ministryGrid:before {
+  content: "\e901";
+}
+.icomoon-addList:before {
+  content: "\e902";
 }

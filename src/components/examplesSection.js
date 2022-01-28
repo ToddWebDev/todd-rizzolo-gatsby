@@ -1,5 +1,5 @@
 import React from "react"
-import { cards, card } from "../styles/components.module.css"
+import { cards, card, smallCards } from "../styles/components.module.css"
 
 const Examples = () => (
   <section>
@@ -8,11 +8,10 @@ const Examples = () => (
       While much of the code I write for my employer is private, I do share
       examples of my code on these platforms.
     </p>
-    <div className={cards}>
+    <div className={smallCards}>
       <div className={card}>
-        <h3>
-          <i aria-hidden className="fas fa-laptop-code"></i> Code Sandbox
-        </h3>
+        <i aria-hidden className="fas fa-laptop-code small"></i>
+        <h3>Code Sandbox</h3>
         <ul>
           <li>React</li>
           <li>User Interface Design</li>
@@ -29,9 +28,8 @@ const Examples = () => (
         </div>
       </div>
       <div className={card}>
-        <h3>
-          <i aria-hidden className="fab fa-codepen"></i> CodePen
-        </h3>
+        <i aria-hidden className="fab fa-codepen small"></i>
+        <h3>CodePen</h3>
         <ul>
           <li>Javascript</li>
           <li>HTML</li>
@@ -49,9 +47,8 @@ const Examples = () => (
         </div>
       </div>
       <div className={card}>
-        <h3>
-          <i className="fab fa-github"></i> GitHub
-        </h3>
+        <i className="fab fa-github small"></i>
+        <h3>GitHub</h3>
         <ul>
           <li>React</li>
           <li>Javascript</li>
