@@ -1,5 +1,5 @@
 import React from "react"
-import { cards, card, smallCards } from "../styles/components.module.css"
+import { card, smallCards } from "../styles/components.module.css"
 
 const Examples = () => (
   <section>

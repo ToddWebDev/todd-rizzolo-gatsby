@@ -41,7 +41,7 @@ const Portfolio = () => (
         </div>
       </div>
       <div className={card}>
-        <i aria-hidden class="fas fa-bible"></i>
+        <i aria-hidden className="fas fa-bible"></i>
         <h3>Digital Curriculum</h3>
         <p>A digital curriculum web app tailored for church leaders.</p>
         <ul>

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/layout"
 import PortfolioSection from "../components/portfolioSection"
 import ExamplesSection from "../components/examplesSection"
@@ -8,11 +8,21 @@ import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 export default () => {
+  const [readMore, setReadMore] = useState(false)
   useVH()
   const scrollToTop = e => {
     e.preventDefault()
     scrollTo("#top")
   }
+
+  const descriptionText =
+    "I'm a front-end software developer with a strong focus on javascript, user interface design and implementation. I help conceptualize, facilitate, design, prototype and build digital products. My experience includes writing functional, well thought-out and production-ready code, that is unit tested and meets the design requirements of detailed prototypes and mockups. I'm a self starter, a team player and have many years of experience working in a scrum and agile oriented system. I have strong communication skills, enjoy solving complex problems and most of all, I enjoy building great digital products."
+
+  const handleClick = e => {
+    e.preventDefault()
+    setReadMore(true)
+  }
+
   return (
     <ThemeToggler>
       {({ theme, toggleTheme }) => (
@@ -32,17 +42,17 @@ export default () => {
               </div>
               <h2>Front-End Web Developer</h2>
               <blockquote>
-                I&lsquo;m a front-end software developer with a strong focus on
-                javascript, user interface design and implementation. I help
-                conceptualize, facilitate, design, prototype and build digital
-                products. My experience includes writing functional, well
-                thought-out and production-ready code, that is unit tested and
-                meets the design requirements of detailed prototypes and
-                mockups. I&lsquo;m a self starter, a team player and have many
-                years of experience working in a scrum and agile oriented
-                system. I have strong communication skills, enjoy solving complex
-                problems and most of all, I enjoy building great digital products.
+                {readMore
+                  ? descriptionText
+                  : descriptionText.slice(0, 311) + "..."}
+                <br />
+                {!readMore && (
+                  <a href="#" onClick={e => handleClick(e)}>
+                    Read More
+                  </a>
+                )}
               </blockquote>
+
               <h3>Toolbox</h3>
               <ul className="flex-list">
                 <li>Javascript</li>
