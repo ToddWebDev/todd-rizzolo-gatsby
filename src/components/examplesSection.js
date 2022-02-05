@@ -47,7 +47,7 @@ const Examples = () => (
         </div>
       </div>
       <div className={card}>
-        <i className="fab fa-github small"></i>
+        <i aria-hidden className="fab fa-github small"></i>
         <h3>GitHub</h3>
         <ul>
           <li>React</li>

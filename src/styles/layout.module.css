@@ -54,8 +54,8 @@
   margin-top: 1em;
   transform: rotate(-3deg);
   box-shadow: -3px 3px 12px 2px rgb(0 0 0 / 40%);
-  animation: shake 0.2s forwards;
-  animation-iteration-count: 4;
+  /* animation: shake 0.2s forwards; */
+  /* animation-iteration-count: 4; */
 }
 
 .header a div img {
@@ -170,11 +170,25 @@ footer {
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(-3deg); }
-  25% { transform: translate(-3px, 0px) rotate(-2deg); }
-  25% { transform: translate(-3px, 0px) rotate(-1deg); }
-  50% { transform: translate(-1px, 2px) rotate(0deg); }
-  75% { transform: translate(3px, 1px) rotate(-1deg); }
-  75% { transform: translate(3px, 1px) rotate(-2deg); }
-  100% { transform: translate(1px, -2px) rotate(-3deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(-3deg);
+  }
+  25% {
+    transform: translate(-3px, 0px) rotate(-2deg);
+  }
+  25% {
+    transform: translate(-3px, 0px) rotate(-1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(0deg);
+  }
+  75% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(3px, 1px) rotate(-2deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-3deg);
+  }
 }
