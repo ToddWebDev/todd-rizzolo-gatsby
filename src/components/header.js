@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { header } from "../styles/layout.module.css"
+import { header, image } from "../styles/layout.module.css"
 
 import Footer from "./footer"
 
@@ -21,15 +20,14 @@ const Header = () => {
   return (
     <header className={header}>
       <div>
-        <Link to="#">
-            <StaticImage
-              src="../images/profile-image.jpg"
-              alt="Profile Image"
-              placeholder="blurred"
-              width={250}
-              height={250}
-            />
-        </Link>
+        <StaticImage
+          className={image}
+          src="../images/profile-image.jpg"
+          alt="Profile Image"
+          placeholder="blurred"
+          width={250}
+          height={250}
+        />
         <h1>Todd Rizzolo</h1>
         <h2>
           {" "}

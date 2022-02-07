@@ -49,8 +49,8 @@
 .header a:focus {
   color: #f5f8fa;
 }
-
-.header a div {
+ 
+.image {
   margin-top: 1em;
   transform: rotate(-3deg);
   box-shadow: -3px 3px 12px 2px rgb(0 0 0 / 40%);
@@ -58,14 +58,14 @@
   /* animation-iteration-count: 4; */
 }
 
-.header a div img {
+.image img {
   color: var(--primary-one);
   border-radius: 2px;
   border: 10px solid #fff;
   border-bottom-width: 64px;
 }
 
-.header a div:after {
+.image:after {
   position: absolute;
   bottom: 16px;
   left: 10px;
