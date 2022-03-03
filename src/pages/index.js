@@ -23,11 +23,11 @@ export default () => {
             <div style={{ position: "absolute", top: "3rem", right: "3rem" }}>
               {theme === "light" ? (
                 <button onClick={() => toggleTheme("dark")}>
-                  <i aria-hidden className="fas fa-cloud-sun"></i> Light Mode
+                  <i aria-hidden className="fas fa-cloud-sun"></i> Light Theme
                 </button>
               ) : (
                 <button onClick={() => toggleTheme("light")}>
-                  <i aria-hidden className="fas fa-moon"></i> Dark Mode
+                  <i aria-hidden className="fas fa-moon"></i> Dark Theme
                 </button>
               )}
             </div>
