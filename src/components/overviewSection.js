@@ -32,6 +32,7 @@ const Overview = () => {
         <li className="list-fill"></li>
       </ul>
       <ul>
+        <li>NextJS</li>
         <li>Gatsby</li>
         <li>GraphQL</li>
         <li>Accessibility</li>

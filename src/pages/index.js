@@ -37,7 +37,7 @@ export default () => {
             <ContactSection />
             <section>
               <a href="#" onClick={e => scrollToTop(e)}>
-                <i aria-hidden className="far fa-hand-point-up"></i> Back to top
+                <i aria-hidden className="fas fa-angle-double-up"></i> Back to top
               </a>
             </section>
           </Layout>
