@@ -60,10 +60,26 @@
   flex: 1;
 }
 
+.feature {
+  height: 300px;
+}
+
+.video {
+  height: 300px;
+  width: 100%;
+}
+
+.video > iframe {
+  border-radius: var(--border-radius)
+}
+
 @media only screen and (min-width: 992px) {
   .cards,
   .smallCards {
     flex-direction: row;
+  }
+  .video {
+    width: 71%;
   }
 }
 

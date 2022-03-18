@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import Layout from "../components/layout"
 import OverviewSection from "../components/overviewSection"
+import HighlightSection from "../components/highlightSection"
 import PortfolioSection from "../components/portfolioSection"
 import ExamplesSection from "../components/examplesSection"
 import ContactSection from "../components/contactSection"
@@ -32,6 +33,7 @@ export default () => {
               )}
             </div>
             <OverviewSection />
+            <HighlightSection />
             <PortfolioSection />
             <ExamplesSection />
             <ContactSection />
