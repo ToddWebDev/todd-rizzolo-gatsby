@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     "gatsby-plugin-dark-mode",
     `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-portal`,
   ],
   siteMetadata: {
     siteUrl: "https://www.toddrizzolo.com",
