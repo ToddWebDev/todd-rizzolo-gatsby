@@ -3,7 +3,7 @@ import { feature, video } from "../styles/components.module.css"
 
 const Highlight = () => (
   <section>
-    <h2>My Latest Project</h2>
+    <h2>My Highlight</h2>
     <p>A video highlight of my latest design and development work for Digital Curriculum.</p>
     <div className={feature}>
       <div className={video}>
@@ -14,6 +14,9 @@ const Highlight = () => (
           width="100%"
           height="100%"
           frameBorder="0"
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
+          allowFullScreen
         />
       </div>
     </div>
