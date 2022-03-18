@@ -10,6 +10,39 @@ const Portfolio = () => (
     </p>
     <div className={cards}>
       <div className={card}>
+        <i aria-hidden className="fas fa-bible"></i>
+        <h3>Digital Curriculum</h3>
+        <p>A digital curriculum web app tailored for church leaders.</p>
+        <ul>
+          <li>React</li>
+          <li>Javascript</li>
+          <li>UX/UI</li>
+        </ul>
+        <div>
+          <button
+            rel="noreferrer"
+            onClick={() =>
+              window.open("https://ministrygrid.com/curriculum", "_blank")
+            }
+          >
+            Visit Marketing{" "}
+            <i aria-hidden className="fas fa-external-link-alt"></i>
+          </button>
+          <button
+            rel="noreferrer"
+            className="secondary"
+            onClick={() =>
+              window.open(
+                "https://ministrygrid.lifeway.com/#/bible-studies",
+                "_blank"
+              )
+            }
+          >
+            Visit App <i aria-hidden className="fas fa-external-link-alt"></i>
+          </button>
+        </div>
+      </div>
+      <div className={card}>
         <i aria-hidden className="icomoon-ministryGrid"></i>
         <h3>Ministry Grid</h3>
         <p>A training web app tailored for church leaders.</p>
@@ -32,38 +65,6 @@ const Portfolio = () => (
             onClick={() =>
               window.open(
                 "https://ministrygrid.lifeway.com/#/catalog",
-                "_blank"
-              )
-            }
-          >
-            Visit App <i aria-hidden className="fas fa-external-link-alt"></i>
-          </button>
-        </div>
-      </div>
-      <div className={card}>
-        <i aria-hidden className="fas fa-bible"></i>
-        <h3>Digital Curriculum</h3>
-        <p>A digital curriculum web app tailored for church leaders.</p>
-        <ul>
-          <li>React</li>
-          <li>UX/UI</li>
-        </ul>
-        <div>
-          <button
-            rel="noreferrer"
-            onClick={() =>
-              window.open("https://ministrygrid.com/curriculum", "_blank")
-            }
-          >
-            Visit Marketing{" "}
-            <i aria-hidden className="fas fa-external-link-alt"></i>
-          </button>
-          <button
-            rel="noreferrer"
-            className="secondary"
-            onClick={() =>
-              window.open(
-                "https://ministrygrid.lifeway.com/#/bible-studies",
                 "_blank"
               )
             }
