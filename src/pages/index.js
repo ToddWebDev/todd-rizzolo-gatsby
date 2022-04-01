@@ -4,6 +4,7 @@ import OverviewSection from "../components/overviewSection"
 import HighlightSection from "../components/highlightSection"
 import PortfolioSection from "../components/portfolioSection"
 import ExamplesSection from "../components/examplesSection"
+import PrototypesSection from "../components/prototypesSection"
 import ContactSection from "../components/contactSection"
 import useVH from "react-viewport-height"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
@@ -36,6 +37,7 @@ export default () => {
             <HighlightSection />
             <PortfolioSection />
             <ExamplesSection />
+            <PrototypesSection />
             <ContactSection />
             <section>
               <a href="#" onClick={e => scrollToTop(e)}>
