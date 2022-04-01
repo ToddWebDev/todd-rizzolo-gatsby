@@ -49,7 +49,7 @@ const Prototypes = () => (
       <div className={card}>
         <i aria-hidden className="fab fa-figma small"></i>
         <h3>Course Settings</h3>
-        <p>Manage a courses attributes for the training catalog.</p>
+        <p>Manage the attributes and settings of a course in the training catalog.</p>
         <ul>
           <li>Figma</li>
           <li>User Experience</li>
