@@ -3,7 +3,7 @@ import { feature, video } from "../styles/components.module.css"
 
 const Highlight = () => (
   <section>
-    <h2>My Highlight</h2>
+    <h2>My Latest Achievement</h2>
     <p>A video highlight of my latest design and development work for Digital Curriculum.</p>
     <div className={feature}>
       <div className={video}>
