@@ -26,8 +26,8 @@ const Overview = () => {
       <h3>Toolbox</h3>
       <ul className="flex-list">
         <li>Javascript</li>
+        <li>Vue</li>
         <li>React</li>
-        <li>AngularJS</li>
         <li>Webpack</li>
         <li className="list-fill"></li>
       </ul>
