@@ -16,10 +16,10 @@
       rgba(22, 76, 105, 0.9),
       rgba(13, 45, 62, 0.9)
     ),
-    url(../images/ministrygrid-mockup.jpg);
-  background-position-x: center, -117vw;
+    url(../images/cirque-traverse-2020.jpg);
+  background-position: left top;
   background-repeat: repeat, no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .header h1 {
@@ -49,7 +49,7 @@
 .header a:focus {
   color: #f5f8fa;
 }
- 
+
 .image {
   margin-top: 1em;
   transform: rotate(-3deg);

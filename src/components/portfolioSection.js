@@ -13,7 +13,9 @@ const Portfolio = () => (
         <div className={card}>
           <i aria-hidden className="fas fa-circle-notch"></i>
           <h3>Lendio</h3>
-          <p>A lending marketplace for small businesses.</p>
+          <p>
+            A lending marketplace to help small businesses survive and thrive.
+          </p>
           <ul>
             <li>Vue</li>
             <li>Javascript</li>

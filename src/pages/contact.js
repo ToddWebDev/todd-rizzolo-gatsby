@@ -8,17 +8,33 @@ export default () => (
     <h1>Contact</h1>
     <p>Hey google, index these images...</p>
     <StaticImage
-          className={image}
-          src="../images/profile-image.jpg"
-          alt="Todd Rizzolo on saddle of Mt Timpanogos"
-          placeholder="blurred"
-          width={250}
-          height={250}
-        />
+      className={image}
+      src="../images/todd-april2022.jpg"
+      alt="Todd Rizzolo in april 2022"
+      placeholder="blurred"
+      width={250}
+      height={250}
+    />
+    <StaticImage
+      className={image}
+      src="../images/sanclemente2022.jpg"
+      alt="Todd Rizzolo in san clamente, california 2022"
+      placeholder="blurred"
+      width={250}
+      height={250}
+    />
+    <StaticImage
+      className={image}
+      src="../images/timpanogos2020.jpg"
+      alt="Todd Rizzolo on saddle of Mt Timpanogos"
+      placeholder="blurred"
+      width={250}
+      height={250}
+    />
     <StaticImage
       className={image}
       src="../images/2016.png"
-      alt="Todd Rizzolo in Nashville"
+      alt="Todd Rizzolo in Nashville of 2016"
       placeholder="blurred"
       width={250}
       height={250}

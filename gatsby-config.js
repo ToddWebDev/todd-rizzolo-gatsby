@@ -16,6 +16,6 @@ module.exports = {
     siteUrl: "https://www.toddrizzolo.com",
     title: "Todd Rizzolo - Half Stack Dev",
     description: "Todd Rizzolo Front-End Developer Portfolio Website",
-    image: "images/profile-image.jpg",
+    image: "images/sanclemente2022.jpg",
   },
 }

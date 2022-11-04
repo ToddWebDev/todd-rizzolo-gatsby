@@ -22,7 +22,7 @@ const Header = () => {
       <div>
         <StaticImage
           className={image}
-          src="../images/profile-image.jpg"
+          src="../images/sanclemente2022.jpg"
           alt="Profile Image"
           placeholder="blurred"
           width={250}
